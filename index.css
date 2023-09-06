@@ -1,0 +1,257 @@
+.home {
+    text-align: center; /* Để căn giữa nếu ở chế độ web */
+  }
+  
+  .noidung h2 {
+    font-size: 20px; /* Font size cho chế độ web */
+    text-align: center; /* Để căn giữa nếu ở chế độ web */
+  }
+
+  @media (max-width: 696px) { /* Kiểm tra nếu màn hình nhỏ hơn 768px (chế độ điện thoại) */
+    .noidung h2{
+      text-align: left; /* Để căn trái nếu ở chế độ điện thoại */
+    }
+    
+    .noidung h2 {
+      font-size: 16px; /* Font size cho chế độ điện thoại */
+      margin-left: 10px; /* Để tạo khoảng cách ở bên trái nếu ở chế độ điện thoại */
+    }
+  }
+  .chon {
+    display: flex;
+    justify-content: center; /* Để căn giữa ngang */
+  }
+
+  .chon ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .chon li {
+    margin: 0 10px; /* Để tạo khoảng cách ngang */
+  }
+/* CSS cho chế độ web */
+.chon {
+    display: flex;
+    justify-content: center; /* Để căn giữa ngang nếu ở chế độ web */
+  }
+  
+  @media (max-width: 696px) {
+    /* CSS cho chế độ điện thoại */
+    .chon {
+      display: block; /* Để đẩy các phần tử sang bên trái nếu ở chế độ điện thoại */
+    }
+  }
+.mathang{
+    width: 100%;
+    height: 1130px;
+    background-color: rgb(255, 255, 255);
+}
+.back{
+    width: 361px;
+    height: 555px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    float: left;
+    margin: 5px;
+}
+.back img{
+    
+    width: 344px;
+    height: 430px;
+    margin-left: 9px;
+    border-radius: 10px;
+}
+@media (max-width:690px) {
+  .back img{
+    margin-left: 10px;
+  }
+}
+.dulieu{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+p{
+    font-size:15px;
+}
+.login{
+    width: 450px;
+    height: 460px;
+    background-color: rgb(253, 253, 253);
+    margin: auto;
+    border-radius: 15px;
+border: 1px solid #000;
+}
+.taikhoan{
+    width: 100%;
+    height: 0px;
+    background-color: #ffffff;
+}
+ul li{
+  list-style: none;
+  float: left;
+}
+.tin{
+  width:450px ;
+  height: 230px;
+  background-color: rgb(253, 253, 253);
+  float: left;
+}
+.vui{
+  width: 100%;
+  height: 230px;
+  background-color: #ffffff;
+}
+@media (max-width: 600px) { /* Kiểm tra nếu màn hình nhỏ hơn 768px (chế độ điện thoại) */
+  .login {
+   width: 400px;
+   height: 733px;
+  }}
+.xem {
+  background-color: rgb(255, 255, 255);
+  height: 607px;
+  width: 1107px;
+  margin: 0 auto; /* Để căn giữa theo chiều ngang */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  
+}
+.xem-content{
+  width: 1107px;
+  height: 25px;
+  background-color: #ffffff;
+  
+}
+.xemanh{
+  width: 360px;
+  height: 584px;
+  background-color: #ffffff;
+  float: left;
+  
+}
+.thongtinanh{
+  width: 747px;
+  height: 584px;
+  background-color: rgb(255, 255, 255);
+  float: left;
+}
+.xem-content ul li{
+  font-size: .875rem;
+}
+.size-select {
+  display: inline-block;
+  margin: 10px;
+}
+.size-label {
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  /* Điều chỉnh kích thước cho các phần tử phù hợp với điện thoại di động */
+  .xem {
+      width: 100%;   
+      margin: 0; /* Xóa lề trái và phải */
+  }
+  .xemanh {
+      width: 100%;
+      float: none; /* Không float phần xemanh */
+  }
+
+  .thongtinanh {
+      width: 100%;
+      float: none; /* Không float phần thongtinanh */
+  }
+  
+}
+.xemanh img{
+  margin-left: 15px;
+}
+
+.input-group input{
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+/* Thêm CSS cho phần thongbao */
+.thongbao {
+  text-align: center; /* Canh giữa nội dung trong phần thongbao */
+  margin-top: 20px; /* Khoảng cách từ trên xuống */
+}
+
+/* Sử dụng media query để điều chỉnh CSS cho màn hình nhỏ hơn */
+@media (max-width: 767px) {
+  .thongbao {
+    margin-top: 0; /* Khoảng cách từ trên xuống */
+    margin-bottom: 20px; /* Khoảng cách từ dưới lên */
+  }
+}
+.thanhtoan {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* CSS cho container của nút tìm kiếm */
+.search-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Điều chỉnh khoảng cách tùy ý */
+}
+
+/* CSS cho biểu mẫu thanh toán */
+/* CSS cho chế độ laptop */
+.thanhtoan {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thanhtoan h2 {
+  margin-left: 25px;
+}
+
+.thanhtoan button {
+  margin-left: 100px;
+  padding: 5px;
+  border-radius: 1px;
+  border: 1px solid #000;
+  color: #018bfc;
+}
+
+.thanhtoan button:hover {
+  color: #ffffff;
+  background-color: aqua;
+}
+
+.thanhtoan label {
+  color: #018bfc;
+}
+
+/* CSS cho chế độ điện thoại di động (sử dụng media query) */
+@media (max-width: 768px) {
+  .thanhtoan {
+      width: 100%; /* Điều chỉnh chiều rộng cho phù hợp với màn hình nhỏ hơn */
+      padding: 10px;
+  }
+
+  .thanhtoan h2 {
+      text-align: center;
+      margin-left: 0; /* Loại bỏ margin trái trong chế độ điện thoại */
+  }
+
+  .thanhtoan button {
+      margin-left: 0; /* Loại bỏ margin trái trong chế độ điện thoại */
+  }
+
+  /* Các điều chỉnh khác cho chế độ điện thoại */
+}
